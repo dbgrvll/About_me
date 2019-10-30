@@ -1,7 +1,7 @@
 'use strict';
 
 var askName = prompt('What\'s your name?');
-alert('Welcome ' + askName + `, exciting info about "Jin" and Juice ahead!`);
+    alert('Welcome ' + askName + `, exciting info about "Jin" and Juice ahead!`);
 
 var preferredName = prompt('Is my preferred name JinK?');
 preferredName = preferredName.toLowerCase();
