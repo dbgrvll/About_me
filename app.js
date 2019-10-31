@@ -21,8 +21,10 @@ askUniversity = askUniversity.toLowerCase();
 
 if (askUniversity === 'yes' || askUniversity === 'y') {
   alert('Very nice! you been creeping on my info');
+  // console.log('Very nice! you been creeping on my info');
 } else {
   alert('Try again!');
+  // console.log('Try again!');
 }
 
 var myPassion = prompt('Do I want to go into dental school now?');
@@ -32,8 +34,10 @@ myPassion = myPassion.toLowerCase();
 
 if (myPassion === 'yes' || myPassion === 'y') {
   alert('Unfortunately, not anymore.');
+  // console.log('Unfortunately, not anymore.')
 } else {
   alert('Yes that\'s correct! Let get that coding job!');
+  // console.log('Yes that\'s correct! Let get that coding job!')
 }
 
 var moveSeattle = prompt('Did I move to Seattle 2 years ago?');
@@ -43,8 +47,11 @@ moveSeattle = moveSeattle.toLowerCase();
 
 if (moveSeattle === 'yes' || moveSeattle === 'y') {
   alert('Sorry, I am only 1 year old Seattlian.');
-} else {
+  // console.log('Sorry, I am only 1 year old Seattlian.')
+} 
+else {
   alert('Correct, I been enjoying here!');
+  // console.log('Correct, I been enjoying here!')
 }
 
 var myGoal = prompt('Do I want to build a app to take over the WORLD?');
@@ -54,8 +61,10 @@ myGoal = myGoal.toLowerCase();
 
 if (myGoal === 'yes' || myGoal === 'y') {
   alert('uh oh ' + askName + ', you know my secret. HAHA just kidding, I am not!?');
+  // console.log('uh oh ' + askName + ', you know my secret. HAHA just kidding, I am not!?')
 } else {
   alert('Ding Ding Ding ' + askName + ', That\'s right I want to build an app to help underserved people.');
+  // console.log('Ding Ding Ding ' + askName + ', That\'s right I want to build an app to help underserved people.')
 }
 
 alert('Thank for taking your time to take my quizes ' + askName + ', I hope you learn little bit more about myself.');
