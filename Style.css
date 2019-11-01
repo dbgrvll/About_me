@@ -19,8 +19,14 @@ article {
     margin-top: 50px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     border: 5px double forestgreen;
+
+}
+
+.food {
+    display: inline-block;
 }
 
 h1 {
     font-size: 50px;
 }
+
