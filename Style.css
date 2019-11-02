@@ -19,26 +19,35 @@ article {
     margin-top: 50px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     border: 5px double forestgreen;
+    border-radius: 10px;
+    padding: 20px 30px;
 
+}
+
+ul {
+    list-style-type: circle;
+    text-align: left;
+}
+ol {
+    list-style-type: decimal;
 }
 
 article> ol {
     text-align: left;
 }
 
-.Education>ul {
-    text-align: left;
-}
-
-.work_experience>ul {
-    text-align: left;
-}
 
 .food {
     display: inline-block;
 }
 
 h1 {
+    margin-top: 30px;
     font-size: 40px;
+}
+
+h2 {
+    font-size: 35px;
+    padding-bottom: 20px;
 }
 
