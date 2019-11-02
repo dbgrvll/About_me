@@ -1,8 +1,12 @@
 'use strict';
 
+
+// ask name question
 var askName = prompt('What\'s your name?');
 alert('Welcome ' + askName + ', exciting info about "Jin" and Juice ahead!');
 
+
+// 1st question
 var preferredName = prompt('Is my preferred name JinK?');
 preferredName = preferredName.toLowerCase();
 
@@ -14,6 +18,8 @@ if (preferredName === 'yes' || preferredName === 'y') {
   alert('You da best! Correct');
 }
 
+
+// 2nd question
 var askUniversity = prompt('Did I graduate from University of Hawaii at Manoa?');
 askUniversity = askUniversity.toLowerCase();
 
@@ -27,6 +33,7 @@ if (askUniversity === 'yes' || askUniversity === 'y') {
   // console.log('Try again!');
 }
 
+// 3rd question
 var myPassion = prompt('Do I want to go into dental school now?');
 myPassion = myPassion.toLowerCase();
 
@@ -40,6 +47,8 @@ if (myPassion === 'yes' || myPassion === 'y') {
   // console.log('Yes that\'s correct! Let get that coding job!')
 }
 
+
+// 4th question
 var moveSeattle = prompt('Did I move to Seattle 2 years ago?');
 moveSeattle = moveSeattle.toLowerCase();
 
@@ -54,6 +63,7 @@ else {
   // console.log('Correct, I been enjoying here!')
 }
 
+// 5th question
 var myGoal = prompt('Do I want to build a app to take over the WORLD?');
 myGoal = myGoal.toLowerCase();
 
@@ -67,9 +77,7 @@ if (myGoal === 'yes' || myGoal === 'y') {
   // console.log('Ding Ding Ding ' + askName + ', That\'s right I want to build an app to help underserved people.')
 }
 
-
-
-
+// 6th question with for loop
 for (var i = 0; i < 4;i++) {
   var countryVisit = prompt('How many countries have i visited?');
 
@@ -90,10 +98,7 @@ i = countryVisit.length + 2
 
 }
 
-
-
-
-
+// 7th question with for loop
 var favoriteFood = prompt ('What is my favorite food?');
 favoriteFood = favoriteFood.toUpperCase();
 var listFood = ['SUSHI', 'KIMCHI FRIED RICE', 'SUKIYAKI', 'HOT POT', 'YELLOW CURRY', 'PASTA', 'ITALIAN SUB SANDWICH', 'LOCO MOCO', 'HAMBURGER', 'PIZZA']
@@ -114,6 +119,7 @@ var listFood = ['SUSHI', 'KIMCHI FRIED RICE', 'SUKIYAKI', 'HOT POT', 'YELLOW CUR
 
 
 
+// fruit loop
 
 // var listFood = ['SUSHI', 'KIMCHI FRIED RICE', 'SUKIYAKI', 'HOT POT', 'YELLOW CURRY', 'PASTA', 'ITALIAN SUB SANDWICH', 'LOCO MOCO', 'HAMBURGER', 'PIZZA'];
 // listFood = listFood.toLowerCase();
